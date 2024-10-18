@@ -2,6 +2,7 @@
 *.nc
 *.joblib
 *.csv
+**/*.h5
 **/*.gif
 **/*.png
 **/*.jpg
