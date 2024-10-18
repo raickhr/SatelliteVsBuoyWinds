@@ -1,0 +1,74 @@
+Running on node(s): pn052 starting in: /proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing
+Wed Nov 15 10:55:44 EST 2023
+nprocs =  36
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-8 --lon=-140
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-5 --lon=-155
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-5 --lon=165
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-2 --lon=-95
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-2 --lon=-125
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-2 --lon=165
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=0 --lon=-95
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=0 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=0 --lon=-125
+nprocs =  36
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-9 --lon=-155
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-9 --lon=-180
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-9 --lon=165
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-8 --lon=-95
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-9 --lon=-170
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-8 --lon=-170
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-5 --lon=-95
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-5 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-5 --lon=-180
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-2 --lon=-140
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-2 --lon=-155
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-2 --lon=-180
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-9 --lon=-95
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-9 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-9 --lon=-125
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-9 --lon=-140
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-8 --lon=-125
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-8 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-8 --lon=-180
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-8 --lon=165
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-5 --lon=-125
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-5 --lon=-140
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-5 --lon=-170
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-2 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-2 --lon=-170
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=0 --lon=-140
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/all --lat=-8 --lon=-155

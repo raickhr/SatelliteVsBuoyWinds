@@ -1,0 +1,396 @@
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-5 --lon=-125
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-2 --lon=-140
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-2 --lon=-155
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-2 --lon=-170
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-2 --lon=165
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=0 --lon=-95
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-9 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-9 --lon=-125
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-9 --lon=-140
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-9 --lon=-180
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-8 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-8 --lon=-125
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-8 --lon=-170
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-8 --lon=-180
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-8 --lon=165
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-9 --lon=165
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-5 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-5 --lon=-140
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-5 --lon=-155
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-5 --lon=-180
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-2 --lon=-180
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-9 --lon=-95
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-9 --lon=-155
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-9 --lon=-170
+nprocs =  36
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-8 --lon=-140
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-8 --lon=-155
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-5 --lon=-95
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-5 --lon=-170
+nprocs =  36
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-2 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-2 --lon=-125
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=0 --lon=-110
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=0 --lon=-125
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=0 --lon=-140
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-8 --lon=-95
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-5 --lon=165
+nprocs =  36
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=-2 --lon=-95
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=2 --lon=-155
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=2 --lon=-140
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=2 --lon=-180
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=5 --lon=-110
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=5 --lon=-170
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=0 --lon=-155
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=5 --lon=-95
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=0 --lon=-170
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=2 --lon=-170
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=0 --lon=165
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=5 --lon=-155
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=2 --lon=-95
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=2 --lon=165
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=2 --lon=-125
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=2 --lon=-110
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=0 --lon=-180
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=5 --lon=-125
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=5 --lon=-140
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=8 --lon=-180
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=8 --lon=-125
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=9 --lon=-180
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=9 --lon=-140
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=8 --lon=-170
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=9 --lon=165
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=9 --lon=-110
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=9 --lon=-95
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=8 --lon=-140
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=9 --lon=-125
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=8 --lon=-110
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=8 --lon=-95
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=9 --lon=-155
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=9 --lon=-170
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=5 --lon=165
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=8 --lon=165
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=5 --lon=-180
+python selectWaveDataWithLatLon.py --folder=../../downloads/WaveReanalysis/ --lat=8 --lon=-155
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'
+Traceback (most recent call last):
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 110, in <module>
+    selData, hasData = getDataFromFileAtLonLatPoint(file, lon, lat, epsilon)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/proj/seolab/srai/observation/SatelliteVsBuoy/codes/seaStateProcessing/selectWaveDataWithLatLon.py", line 12, in getDataFromFileAtLonLatPoint
+    lat1d = np.array(ds.variables['latitude'])
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'latitude'

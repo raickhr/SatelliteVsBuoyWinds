@@ -1,0 +1,3 @@
+../../downloads/ASCAT_data/ascat_20071216_164333_metopa_06009_eps_o_250_ovw.l2.nc
+../../downloads/ASCAT_data/ascat_20110111_112345_metopa_21946_eps_o_250_ovw.l2.nc
+

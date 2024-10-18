@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --partition=compute               # Queue selection
+#SBATCH --job-name=test                   # Job name
+#SBATCH --mail-type=END                   # Mail events (BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=shikhar.rai@whoi.edu  # Where to send mail
+#SBATCH --ntasks=36                      # Run on a single CPU
+#SBATCH --mem=128GB                       # Job memory request
+#SBATCH --time=24:00:00                   # Time limit hrs:min:sec
+#SBATCH --error=test_%j.err              # Standard error
+#SBATCH --output=test_%j.out              # Standard output
+##SBATCH --nodelist=pn[041-048,086]       # Nodes to include
+##SBATCH --exclude=pn[007-020].           # Nodes to exclude
+
+echo "Running on node(s): $SLURM_NODELIST starting in: `pwd`"
+date
+
+source ~/runConda.sh
+conda activate mpiNetCDF
+mpirun python getNeutralWindsWithWaveFromBuoyData.py
+date
+

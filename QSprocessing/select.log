@@ -1,0 +1,144 @@
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-8 --lon=-110
+nprocs =  18
+nprocs =  18
+nprocs =  18
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-5 --lon=-95
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-8 --lon=-125
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-8 --lon=-180
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-8 --lon=-95
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-9 --lon=-180
+nprocs =  18
+nprocs =  18
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-9 --lon=-140
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-9 --lon=-110
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-8 --lon=-140
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-8 --lon=-170
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-8 --lon=-155
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-9 --lon=-170
+nprocs =  18
+nprocs =  18
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-9 --lon=-155
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-8 --lon=165
+nprocs =  18
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-9 --lon=165
+nprocs =  18
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-9 --lon=-95
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-5 --lon=-110
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-9 --lon=-125
+skipping ../../downloads/QS_data/T_9S_110W_*
+skipping ../../downloads/QS_data/T_8S_95W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-5 --lon=-140
+skipping ../../downloads/QS_data/T_9S_155W_*
+skipping ../../downloads/QS_data/T_8S_140W_*
+skipping ../../downloads/QS_data/T_5S_95W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-2 --lon=-125
+skipping ../../downloads/QS_data/T_9S_170W_*
+skipping ../../downloads/QS_data/T_9S_95W_*
+skipping ../../downloads/QS_data/T_8S_170W_*
+skipping ../../downloads/QS_data/T_8S_180W_*
+skipping ../../downloads/QS_data/T_8S_155W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-5 --lon=-180
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=0 --lon=-125
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-2 --lon=-170
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-5 --lon=165
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-5 --lon=-125
+skipping ../../downloads/QS_data/T_8S_125W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-2 --lon=165
+skipping ../../downloads/QS_data/T_5S_110W_*
+skipping ../../downloads/QS_data/T_9S_140W_*
+skipping ../../downloads/QS_data/T_9S_165E_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=0 --lon=-95
+skipping ../../downloads/QS_data/T_9S_180W_*
+skipping ../../downloads/QS_data/T_8S_165E_*
+skipping ../../downloads/QS_data/T_9S_125W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-2 --lon=-180
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-2 --lon=-155
+skipping ../../downloads/QS_data/T_8S_110W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-5 --lon=-170
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-2 --lon=-110
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=0 --lon=-140
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-2 --lon=-95
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=0 --lon=-110
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-5 --lon=-155
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=-2 --lon=-140
+skipping ../../downloads/QS_data/T_5S_155W_*
+skipping ../../downloads/QS_data/T_5S_180W_*
+skipping ../../downloads/QS_data/T_5S_165E_*
+skipping ../../downloads/QS_data/T_2S_155W_*
+skipping ../../downloads/QS_data/T_0N_125W_*
+skipping ../../downloads/QS_data/T_2S_140W_*
+skipping ../../downloads/QS_data/T_2S_125W_*
+skipping ../../downloads/QS_data/T_5S_125W_*
+skipping ../../downloads/QS_data/T_0N_95W_*
+skipping ../../downloads/QS_data/T_2S_165E_*
+skipping ../../downloads/QS_data/T_5S_140W_*
+skipping ../../downloads/QS_data/T_0N_110W_*
+skipping ../../downloads/QS_data/T_5S_170W_*
+skipping ../../downloads/QS_data/T_2S_95W_*
+skipping ../../downloads/QS_data/T_2S_170W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=2 --lon=-95
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=5 --lon=-155
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=0 --lon=-155
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=2 --lon=-155
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=5 --lon=-110
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=5 --lon=-125
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=2 --lon=-170
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=2 --lon=-110
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=0 --lon=-180
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=2 --lon=-180
+skipping ../../downloads/QS_data/T_0N_140W_*
+skipping ../../downloads/QS_data/T_2S_180W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=0 --lon=165
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=5 --lon=-140
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=0 --lon=-170
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=2 --lon=165
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=2 --lon=-125
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=5 --lon=-170
+skipping ../../downloads/QS_data/T_2S_110W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=5 --lon=-95
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=2 --lon=-140
+skipping ../../downloads/QS_data/T_0N_170W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=5 --lon=165
+skipping ../../downloads/QS_data/T_2N_165E_*
+skipping ../../downloads/QS_data/T_2N_95W_*
+skipping ../../downloads/QS_data/T_2N_110W_*
+skipping ../../downloads/QS_data/T_5N_155W_*
+skipping ../../downloads/QS_data/T_0N_180W_*
+skipping ../../downloads/QS_data/T_5N_110W_*
+skipping ../../downloads/QS_data/T_0N_155W_*
+skipping ../../downloads/QS_data/T_2N_155W_*
+skipping ../../downloads/QS_data/T_2N_140W_*
+skipping ../../downloads/QS_data/T_2N_125W_*
+skipping ../../downloads/QS_data/T_5N_140W_*
+skipping ../../downloads/QS_data/T_2N_170W_*
+skipping ../../downloads/QS_data/T_5N_170W_*
+skipping ../../downloads/QS_data/T_2N_180W_*
+skipping ../../downloads/QS_data/T_5N_125W_*
+skipping ../../downloads/QS_data/T_0N_165E_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=9 --lon=-110
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=8 --lon=-95
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=9 --lon=-180
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=9 --lon=-140
+skipping ../../downloads/QS_data/T_5N_95W_*
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=8 --lon=-140
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=8 --lon=-125
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=5 --lon=-180
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=8 --lon=-155
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=8 --lon=-180
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=9 --lon=165
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=8 --lon=-170
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=8 --lon=165
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=9 --lon=-155
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=9 --lon=-170
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=9 --lon=-95
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=8 --lon=-110
+python selectQuikSCATdataWithLatLon2.py --folder=../../downloads/QS_data/qs_l2b_v4p1/ --wfolder=../../downloads/QS_data/ --lat=9 --lon=-125

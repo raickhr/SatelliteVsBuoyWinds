@@ -1,0 +1,83 @@
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+nprocs =  36
+waveFile ../../downloads/WaveReanalysis/all/T_2S_125W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_5S_170W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_5S_110W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2S_110W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_0N_110W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2S_95W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_5S_95W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2S_155W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_9S_180W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_9S_110W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_5S_155W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2S_180W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_8S_165E_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_0N_95W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_9S_125W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2N_125W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_8S_95W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_9S_155W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2S_170W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_9S_170W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_0N_170W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_8S_125W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_9S_95W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_5S_125W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_0N_180W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_5S_165E_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_8S_170W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2N_95W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2N_110W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_8S_155W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2S_140W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_9S_140W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_0N_155W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_0N_140W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2S_165E_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_5S_140W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_8S_110W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_9S_165E_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_0N_125W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_8S_180W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_5S_180W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_0N_165E_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_8S_140W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2N_140W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_5N_125W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_2N_165E_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc
+waveFile ../../downloads/WaveReanalysis/all/T_8N_125W_wave_2000_01_01_T00.00.00_to_2012_12_31_T21.00.00.nc

@@ -1,0 +1,864 @@
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:15: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lat = np.array(ds.variables['lat'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:16: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  lon = np.array(ds.variables['lon'][:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wspd = np.array(ds.variables['wind_speed'][:,:], dtype=float)
+/proj/seolab/srai/observation/SatelliteVsBuoy/codes/ASCATprocessing/selectASCATdataWithLatLon2.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  wdir = np.array(ds.variables['wind_dir'][:,:], dtype=float)
