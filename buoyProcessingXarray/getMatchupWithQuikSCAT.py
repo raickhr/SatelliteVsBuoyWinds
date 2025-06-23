@@ -30,6 +30,11 @@ def getMeanAndStdDev(ds, timeWindow):
     mask = np.logical_and(mask, ds.sel(DEPTH=1)['SST_QC'].isin([1,2]).to_numpy())
     mask = np.logical_and(mask, ds.sel(HEIGHT=3)['AIRT_QC'].isin([1,2]).to_numpy())
     mask = np.logical_and(mask, ds.sel(HEIGHT=3)['RELH_QC'].isin([1,2]).to_numpy())
+
+
+    sel_SST = ds.sel(DEPTH = 1)['SST'].to_numpy()[mask]
+    sel_AIRT = ds.sel(HEIGHT = 3)['AIRT'].to_numpy()[mask]
+    sel_RELH = ds.sel(HEIGHT = 3)['RELH'].to_numpy()[mask]
     
     sel_WSPD = ds.sel(HEIGHT = 4.0)['WSPD'].to_numpy()[mask]
     sel_WSPD_10N = ds.sel(HEIGHT = 10.0)['WSPD_10N'].to_numpy()[mask]
@@ -42,6 +47,15 @@ def getMeanAndStdDev(ds, timeWindow):
     sel_sinWDIR = np.sin(np.deg2rad((-(sel_WDIR - 90.0) + 360)%360))
 
     if np.sum(mask) > 0:
+        stdSST = np.nanstd(sel_SST)
+        meanSST = np.nanmean(sel_SST)
+
+        stdAIRT = np.nanstd(sel_AIRT)
+        meanAIRT = np.nanmean(sel_AIRT)
+
+        stdRELH = np.nanstd(sel_RELH)
+        meanRELH = np.nanmean(sel_RELH)
+
         stdWSPD = np.nanstd(sel_WSPD)
         meanWSPD = np.nanmean(sel_WSPD)
 
@@ -63,6 +77,15 @@ def getMeanAndStdDev(ds, timeWindow):
         stdSinWDIR = np.nanstd(sel_sinWDIR)
         meanSinWDIR = np.nanmean(sel_sinWDIR)
     else:
+        stdSST = np.nan
+        meanSST = np.nan
+
+        stdAIRT = np.nan
+        meanAIRT = np.nan
+
+        stdRELH = np.nan
+        meanRELH = np.nan
+
         stdWSPD = np.nan
         meanWSPD = np.nan
 
@@ -84,10 +107,48 @@ def getMeanAndStdDev(ds, timeWindow):
         stdSinWDIR = np.nan
         meanSinWDIR = np.nan
     
-    return meanWSPD, stdWSPD, meanWSPD_10N, stdWSPD_10N, stdUx_10N, meanUx_10N, stdVy_10N, meanVy_10N, meanWDIR, stdWDIR, meanCosWDIR, stdCosWDIR, meanSinWDIR, stdSinWDIR
+    return [meanWSPD,
+            stdWSPD, 
+            meanWSPD_10N, 
+            stdWSPD_10N, 
+            stdUx_10N, 
+            meanUx_10N, 
+            stdVy_10N, 
+            meanVy_10N, 
+            meanWDIR, 
+            stdWDIR, 
+            meanCosWDIR, 
+            stdCosWDIR, 
+            meanSinWDIR, 
+            stdSinWDIR, 
+            meanSST,
+            stdSST,
+            meanAIRT, 
+            stdAIRT,
+            meanRELH,
+            stdRELH]
 
 def makeMeanAndStdXarrVars(dummyDS, timeWindowInMins):
-    meanWSPD, stdWSPD, meanWSPD_10N, stdWSPD_10N, stdUx_10N, meanUx_10N, stdVy_10N, meanVy_10N, meanWDIR, stdWDIR, meanCosWDIR, stdCosWDIR, meanSinWDIR, stdSinWDIR = getMeanAndStdDev(dummyDS, timeWindowInMins)
+    [meanWSPD,
+    stdWSPD,
+    meanWSPD_10N,
+    stdWSPD_10N,
+    stdUx_10N,
+    meanUx_10N,
+    stdVy_10N,
+    meanVy_10N,
+    meanWDIR,
+    stdWDIR,
+    meanCosWDIR,
+    stdCosWDIR,
+    meanSinWDIR,
+    stdSinWDIR,
+    meanSST,
+    stdSST,
+    meanAIRT, 
+    stdAIRT,
+    meanRELH,
+    stdRELH ] = getMeanAndStdDev(dummyDS, timeWindowInMins)
 
     dummyDS[f'mean WSPD {timeWindowInMins:d}min'] = xr.DataArray([meanWSPD], dims = ['QS_TIME'], 
                                                 attrs = {'units' : 'm/s', 'long_name': f'{timeWindowInMins} min centered mean'})
@@ -123,6 +184,23 @@ def makeMeanAndStdXarrVars(dummyDS, timeWindowInMins):
                                                 attrs = {'units' : '', 'long_name': f'{timeWindowInMins} min centered mean'})
     dummyDS[f'std. dev. sinWDIR {timeWindowInMins:d}min'] = xr.DataArray([stdSinWDIR], dims = ['QS_TIME'], 
                                                 attrs = {'units' : '', 'long_name': f'{timeWindowInMins} min centered std. dev'})
+    
+    dummyDS[f'mean SST {timeWindowInMins:d}min'] = xr.DataArray([meanSST], dims = ['QS_TIME'], 
+                                                attrs = {'units' : '', 'long_name': f'{timeWindowInMins} min centered mean'})
+    dummyDS[f'std. dev. SST {timeWindowInMins:d}min'] = xr.DataArray([stdSST], dims = ['QS_TIME'], 
+                                                attrs = {'units' : '', 'long_name': f'{timeWindowInMins} min centered std. dev'})
+    
+    dummyDS[f'mean AIRT {timeWindowInMins:d}min'] = xr.DataArray([meanAIRT], dims = ['QS_TIME'], 
+                                                attrs = {'units' : '', 'long_name': f'{timeWindowInMins} min centered mean'})
+    dummyDS[f'std. dev. AIRT {timeWindowInMins:d}min'] = xr.DataArray([stdAIRT], dims = ['QS_TIME'], 
+                                                attrs = {'units' : '', 'long_name': f'{timeWindowInMins} min centered std. dev'})
+    
+
+    dummyDS[f'mean RELH {timeWindowInMins:d}min'] = xr.DataArray([meanRELH], dims = ['QS_TIME'], 
+                                                attrs = {'units' : '', 'long_name': f'{timeWindowInMins} min centered mean'})
+    dummyDS[f'std. dev. RELH {timeWindowInMins:d}min'] = xr.DataArray([stdRELH], dims = ['QS_TIME'], 
+                                                attrs = {'units' : '', 'long_name': f'{timeWindowInMins} min centered std. dev'})
+    
     return dummyDS
 
 
@@ -241,7 +319,7 @@ def selectMatchingTime(ds_QS, ds_TAO, timeVar1 = 'TIME', timeVar2='TIME'):
 
         ## Calculating Mean and Std. Dev ##
         
-        for timeWindowInMins in range(20,730,10):
+        for timeWindowInMins in range(20,250,10):
             dummyDS = makeMeanAndStdXarrVars(dummyDS, timeWindowInMins)
         
 
@@ -278,7 +356,7 @@ def main():
         satFile = f'../../downloads/QS_data/TAOpos_{lat:03d}{latUnits}_{lon:03d}{lonUnits}_QS.nc'
         
         if os.path.isfile(bFile):
-            writeFname = f'../../downloads/Buoy/extractedGZ/WINDS/T_{lat:02d}{latUnits}_{lon:03d}{lonUnits}_xrr_MatchUp_720_mins_2000.nc'
+            writeFname = f'../../downloads/Buoy/extractedGZ/WINDS/T_{lat:02d}{latUnits}_{lon:03d}{lonUnits}_xrr_MatchUp_240_mins_2000.nc'
             print(f'T_{lat:02d}{latUnits}_{lon:03d}{lonUnits}')
             sys.stdout.flush()
             

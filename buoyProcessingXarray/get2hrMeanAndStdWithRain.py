@@ -83,12 +83,17 @@ for i in range(startIndices[rank], endIndices[rank]):
     indices = selectMask.nonzero()[0]
     
     ds = ds.isel(TIME=indices)
+
+    ds['SST - AIRT'] = ds.sel(DEPTH=1)['SST'] - ds.sel(HEIGHT=3)['AIRT']
     
+    ## this for finding the time differences greater or less than 10 minutes 
+    ## and fill the values nan for when the time is discontinious
     time = pd.to_datetime(ds['TIME'].to_numpy())
     deltaTime = np.roll(time, -1) - time
-    deltaTime = deltaTime
+    #deltaTime = deltaTime
     deltaTime = np.array(deltaTime, dtype='timedelta64[s]')
-    mask = np.logical_or(abs(deltaTime) > np.array([602], dtype='timedelta64[s]') , abs(deltaTime) < np.array([508], dtype='timedelta64[s]'))
+    mask = np.logical_or(abs(deltaTime) > np.array([602], dtype='timedelta64[s]') , 
+                         abs(deltaTime) < np.array([508], dtype='timedelta64[s]'))
     stopIndices = mask.nonzero()[0]+1
     stopIndices = np.concatenate(([0], stopIndices))
     
@@ -100,7 +105,7 @@ for i in range(startIndices[rank], endIndices[rank]):
     ds['U10N_y'] = ds.WSPD_10N.sel(HEIGHT=[10]) * ds.sinWDIR.sel(HEIGHT=4)
     
     
-    vars = ['WSPD', 'WSPD_10N', 'SST', 'AIRT', 'RELH', 'U10N_x', 'U10N_y', 'cosWDIR', 'sinWDIR', 'RAIN']
+    vars = ['WSPD', 'WSPD_10N', 'SST', 'AIRT', 'RELH', 'U10N_x', 'U10N_y', 'cosWDIR', 'sinWDIR', 'RAIN', 'SST - AIRT']
     
     for var in vars:
         print(f'at rank {rank} : {var}')
@@ -116,7 +121,7 @@ for i in range(startIndices[rank], endIndices[rank]):
         else:
             xarr = ds[var].sel(HEIGHT=3)
             xarr = xarr.drop_vars('HEIGHT')
-        ksize = 12
+        ksize = 240
         np_arr = xarr.to_numpy()
         kernel = np.ones((ksize), dtype=float)
         kernel /= sum(kernel)
@@ -133,6 +138,9 @@ for i in range(startIndices[rank], endIndices[rank]):
                 start = 0
             if end>arrLen:
                 end =arrLen
+            
+            ### filling nan values to half kernel size to left and right of time discontinuity
+
             arr_bar[start:end] = np.nan
             arrStd[start:end] = np.nan
             

@@ -1,33 +1,38 @@
-import numpy as np
 import os
+import glob
+import shutil
 
-latList = [-8, -9, -5, -2, 0, 2, 5, 8, 9]
-lonList = [-110, -95, -125, -140, -155, -170, -180, 165]
+LAT_LIST = sorted([-8, -9, -5, -2, 0, 2, 5, 8, 9])
+LON_LIST = sorted([-110, -95, -125, -140, -155, -170, -180, 165])
+WRITE_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QS_data/'
 
-writeDir = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QS_data/'
+def format_coord(lat, lon):
+    lat_unit = 'S' if lat < 0 else 'N'
+    lon_unit = 'W' if lon < 0 else 'E'
+    return f'{abs(lat):03d}{lat_unit}_{abs(lon):03d}{lon_unit}'
 
-for thisLat in latList:
-    for thisLon in lonList:
-        if thisLat < 0:
-            latUnit = 'S'
-        else:
-            latUnit = 'N'
-        
-        if thisLon < 0:
-            lonUnit = 'W'
-        else:
-            lonUnit = 'E'
+def main():
+    for lat in LAT_LIST:
+        for lon in LON_LIST:
+            coord_str = format_coord(lat, lon)
+            pos_folder = f'TAOpos_{coord_str}'
+            dst_dir = os.path.join(WRITE_DIR, pos_folder)
+            os.makedirs(dst_dir, exist_ok=True)
 
-        posFolder = f'TAOpos_{abs(thisLat):03.0f}{latUnit:s}_{abs(thisLon):03.0f}{lonUnit:s}'
-        cmd = f'mkdir -p {writeDir}{posFolder}'
-        print(cmd)
-        os.system(cmd)
-        
-        wFile = f'T_{abs(thisLat):03.0f}{latUnit:s}_{abs(thisLon):03.0f}{lonUnit:s}_QS_fileNumber*_rank*.nc'
+            wildcard_filename = f'T_{coord_str}_QS_fileNumber*_rank*.nc'
+            file_pattern = os.path.join(WRITE_DIR, wildcard_filename)
+            files_to_move = glob.glob(file_pattern)
 
-        fileFormat = writeDir + wFile
-        dst = writeDir + posFolder
-        cmd = f'mv {fileFormat}  {dst}'
-        print(cmd)
-        os.system(cmd)
-        
+            if not files_to_move:
+                print(f"No files found for {coord_str}")
+                continue
+
+            for file_path in files_to_move:
+                try:
+                    shutil.move(file_path, dst_dir)
+                    print(f"Moved: {file_path} -> {dst_dir}")
+                except Exception as e:
+                    print(f"Error moving {file_path}: {e}")
+
+if __name__ == "__main__":
+    main()
