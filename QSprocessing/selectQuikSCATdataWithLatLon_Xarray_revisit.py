@@ -12,8 +12,11 @@ LAT_LIST = [-9, -8, -5, -2, 0, 2, 5, 8, 9]
 LON_LIST = [-95, -110, -125, -140, -155, -170, -180, 165]
 TOL = 0.1
 
-READ_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QS_data/qs_l2b_v4p1/'
-WRITE_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QS_data/'
+#READ_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QS_data/qs_l2b_v4p1/'
+#WRITE_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QS_data/'
+
+READ_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QuikSCAT_data/ncfiles/'
+WRITE_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QuikSCAT_data/'
 
 # ================ MPI SETUP ==========================
 comm = MPI.COMM_WORLD
@@ -76,34 +79,64 @@ for i in range(start_idx[0], end_idx[0]):
             if mask.sum() == 0:
                 continue
 
-            sub_ds = ds.where(mask, drop=True).reset_coords(['lat', 'lon']).rename({'lat': 'QS_LAT', 'lon': 'QS_LON'})
-            QS_lat, QS_lon = sub_ds['QS_LAT'].to_numpy(), sub_ds['QS_LON'].to_numpy()
-            distance = get_great_circle_distance(lat, lon, QS_lat, QS_lon)
+            masked_ds = ds.where(mask, np.nan)
+            ds.close()
+
+            # selecting the time indices when the satellite crosses the position withing tolerance
+            selTimeIndices = []
+            for t in range(ds.dims['time']):
+                notNans = np.sum(mask.isel(time=t).to_numpy())
+                if notNans > 0:
+                    selTimeIndices.append(t)
+
+            selTimeIndices = np.array(selTimeIndices)
+            sub_ds = ds.isel(time = selTimeIndices)
+            mask = mask.isel(time = selTimeIndices)
+
+            ## calculate distance from the target lat lon to the lat lon position of the satellite
+            sub_ds = sub_ds.rename({'lat': 'QS_LAT', 'lon': 'QS_LON'})
+            QS_LAT, QS_LON = sub_ds['QS_LAT'].to_numpy(), sub_ds['QS_LON'].to_numpy()
+            distance = get_great_circle_distance(lat, lon, QS_LAT, QS_LON)
 
             sub_ds['dist_from_TAO_pos'] = xr.DataArray(
                 distance,
                 dims=['time', 'cross_track'],
-                attrs={'units': 'kilometers', 'long_name': 'great circle distance from TAO position'}
+                attrs={'units': 'kilometers', 
+                       'long_name': 'great circle distance from TAO position'}
             )
 
+            ## within the selected the times sort by the distance in a row
             tlen = len(sub_ds['time'])
             out_ds = xr.Dataset()
+
+            max_cross_track = 3  ## max three values
+            max_ambiguities = 4 ## max ambiguities
 
             for var in sub_ds.data_vars:
                 data = sub_ds[var]
                 if var not in ['ambiguity_speed', 
                                'ambiguity_direction', 
                                'ambiguity_obj']:
-                    arr = np.full((tlen, 3), np.nan)
-                    arr[:, :data.shape[1]] = data[:, :3]
+                    arr = np.full((tlen, max_cross_track), np.nan)
+                    for t in range(tlen):
+                        thisDist = distance[t,:]
+                        varArr = sub_ds[var].isel(time = t).to_numpy()
+                        varArr = varArr[thisDist.argsort()] # sort by distance
+                        arr[t, :] = varArr[0:max_cross_track]
+
                     out_ds[var] = xr.DataArray(arr, 
                                                dims=['time', 'cross_track'], 
                                                coords={'time': sub_ds['time'], 
-                                                       'cross_track': np.arange(3)}, 
+                                                       'cross_track': np.arange(max_cross_track)}, 
                                                attrs=data.attrs)
                 else:
-                    arr = np.full((tlen, 3, 4), np.nan)
-                    arr[:, :data.shape[1], :] = data[:, :3, :]
+                    arr = np.full((tlen, max_cross_track, max_ambiguities), np.nan)
+                    for t in range(tlen):
+                        thisDist = distance[t,:]
+                        varArr = sub_ds[var].isel(time = t).to_numpy()
+                        varArr = varArr[thisDist.argsort(), :] # sort by distance
+                        arr[t, :, :] = varArr[0:max_cross_track, 0:max_ambiguities]
+
                     out_ds[var] = xr.DataArray(arr, dims=['time', 
                                                           'cross_track', 
                                                           'ambiguities'],
