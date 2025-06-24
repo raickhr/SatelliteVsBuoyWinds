@@ -4,7 +4,7 @@ import shutil
 
 LAT_LIST = sorted([-8, -9, -5, -2, 0, 2, 5, 8, 9])
 LON_LIST = sorted([-110, -95, -125, -140, -155, -170, -180, 165])
-WRITE_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QS_data/'
+WRITE_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QuikSCAT_data/'
 
 def format_coord(lat, lon):
     lat_unit = 'S' if lat < 0 else 'N'
