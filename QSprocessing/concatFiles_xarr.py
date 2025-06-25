@@ -9,7 +9,7 @@ LAT_LIST = [-9, -8, -5, -2, 0, 2, 5, 8, 9]
 LON_LIST = [-95, -110, -125, -140, -155, -170, -180, 165]
 TASKS = [(lat, lon) for lat in LAT_LIST for lon in LON_LIST]
 
-WRITE_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QS_data/'
+WRITE_DIR = '/srv/data2/srai_poseidon/srai_poseidon/observation/SatelliteVsBuoy/downloads/QuikSCAT_data/'
 
 # ================ MPI SETUP ==========================
 comm = MPI.COMM_WORLD
