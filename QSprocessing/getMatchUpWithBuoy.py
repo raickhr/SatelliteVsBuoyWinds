@@ -16,7 +16,7 @@ TASKS = [(lat, lon) for lat in LAT_LIST for lon in LON_LIST]
 
 ROOT_DIR = Path('../../downloads')
 BUOY_DIR = ROOT_DIR / 'Buoy/TAO_data/WINDS'
-METOP_DIR = 'MetOP_B'
+METOP_DIR = ''
 SAT_DIR = ROOT_DIR / 'QuikSCAT_data'/ METOP_DIR
 
 
@@ -116,8 +116,8 @@ def process_matchup(lat, lon):
     coord_str = format_coord(lat, lon)
 
     buoy_file = BUOY_DIR / f'T_{coord_str}_xrr_COARE3p5_2013_2020_2hrMeanVar.nc'
-    sat_file = SAT_DIR / f'TAOpos_{coord_str}_AS.nc'
-    output_filename = f'T_{coord_str}_COARE3p5_2013_2020_2hrMeanVar_QS_Matchup.nc'
+    sat_file = SAT_DIR / f'TAOpos_{coord_str}_QS.nc'
+    output_filename = f'T_{coord_str}_COARE3p5_1999_2009_2hrMeanVar_QS_Matchup.nc'
     out_file = BUOY_DIR / METOP_DIR/ output_filename
 
     if out_file.exists():
