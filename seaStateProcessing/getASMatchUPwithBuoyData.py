@@ -16,7 +16,7 @@ TASKS = [(lat, lon) for lat in LAT_LIST for lon in LON_LIST]
 
 ROOT_DIR = Path('../../downloads')
 BUOY_DIR = ROOT_DIR / 'Buoy/TAO_data/WINDS'
-METOP_DIR = 'MetOP_B'
+METOP_DIR = 'MetOP_A'
 SAT_DIR = ROOT_DIR / 'ASCAT_data'/ METOP_DIR
 WAVE_DIR = ROOT_DIR / 'WaveReanalysis'
 GLORYS_DIR = ROOT_DIR / 'oceanReanalysis'
