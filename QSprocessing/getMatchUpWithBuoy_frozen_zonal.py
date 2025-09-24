@@ -205,6 +205,7 @@ def match_times_withFrozenField(
             u_list    = [float(u_da.isel(TAO_TIME=center_idx).values)]
             v_list    = [float(v_da.isel(TAO_TIME=center_idx).values)]
             deltaX    = w0 * dt_sec
+            deltaT    = dt_sec
 
             left  = center_idx
             right = center_idx
@@ -216,8 +217,8 @@ def match_times_withFrozenField(
         # keep growing until we hit target distance 
 
         try:
-            while abs(deltaX) < path_length_m:
-                left = -1
+            while abs(deltaX) < path_length_m and deltaT < 86400:
+                left -= 1
                 if left < 0:
                     left = 0 
                 wl, tl = _get_wspd_time(left)
@@ -233,9 +234,9 @@ def match_times_withFrozenField(
                 u_list.append(float(u_da.isel(TAO_TIME=left).values))
                 v_list.append(float(v_da.isel(TAO_TIME=left).values))
                 deltaX += wl * dt_sec
+                deltaT += dt_sec
 
-
-                right = +1
+                right += 1
                 if right > nt - 1:
                     right = nt - 1 
                 wl, tl = _get_wspd_time(right)
@@ -251,6 +252,8 @@ def match_times_withFrozenField(
                 u_list.append(float(u_da.isel(TAO_TIME=right).values))
                 v_list.append(float(v_da.isel(TAO_TIME=right).values))
                 deltaX += wl * dt_sec
+                deltaT += dt_sec
+
         except Exception as e:
             log(f"Time integration Error{e}", level='ERR', location=coord_str)
             
